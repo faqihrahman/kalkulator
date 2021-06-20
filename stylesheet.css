@@ -26,7 +26,6 @@
 }
 
 button{
-    display: flex;
     height: 80px;
     background-color: gray;
     border: 1px solid black;
@@ -42,4 +41,12 @@ button{
 
 .operator, .equal-sign{
     background-color: orange;
+}
+
+button:hover{
+    background-color: darkgray;
+}
+
+.operator:hover, .equal-sign:hover{
+    background-color: darkorange;
 }
