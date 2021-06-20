@@ -25,7 +25,8 @@
     display: flex;
 }
 
-.button{
+button{
+    display: flex;
     height: 80px;
     background-color: gray;
     border: 1px solid black;
